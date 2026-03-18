@@ -192,9 +192,9 @@ export default function GursoySaat() {
                     }}
                   >
                     <img
-                      src="/logo.jpeg"
+                      src="/logo.png"
                       alt="Gürsoy Saat"
-                      style={{ width: 78, height: 78, objectFit: "contain", display: "block" }}
+                      style={{ width: 78, height: 78, objectFit: "contain", display: "block", filter: "contrast(1.1) brightness(0.95)" }}
                       onError={(e) => {
                         e.currentTarget.style.display = "none";
                       }}
